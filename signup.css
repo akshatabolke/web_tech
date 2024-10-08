@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+form{
+    width: 20%;
+    margin: auto;
+    background-color: rgba(234, 137, 9, 0.056);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+    /* padding-left: 8rem; */
+
+}
+input,label,button{
+    display: block;
+   margin-top: 0.5rem;
+   width: 100%;
+  /* // padding: 0.5rem; */
+}
+button{
+   
+    padding: 0.5rem;
+    background-color: rgb(178, 119, 233);
+    color: white;
+    border-radius: 5px;
+}
+button:active{
+    background-color: rgb(191, 141, 237);
+}
+
+span{
+    color: red;
+}

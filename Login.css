@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 1rem;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form>div{
+    width: 17%;
+    display: block;
+    padding: 4rem;
+    background-image: linear-gradient(rgb(220, 173, 85), rgb(231, 196, 99));
+    border-radius: 20px;
+    
+}
+label,input,button{
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 5px;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+button{
+    font-size: 1rem;
+    width: 108%;
+    color:white;
+    background-color: rgb(119, 38, 38);
+    border: 2px solid white;
+}
+button:active{
+
+    background-color: rgb(143, 59, 59);
+}
+h2{
+    font-size: 1.3rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+span{
+    color:red;
+   
+}

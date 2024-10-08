@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    
+    display: flex;
+    justify-content: center;
+     align-items: center;  /*this three for center */
+    height: 100vh;
+}
+section>div{
+    width:30%;
+    padding: 1rem;
+    background-color: rgb(212, 179, 244);
+}
+section > div > input{
+    height: 2.5rem;
+    padding: 0.5 rem;
+    outline: none;
+}
+section > div > button{
+    height: 2.5rem;
+    padding:0.8rem ;
+    border: none;
+    border-radius: 5px;
+    color: rgb(249, 138, 138);
+    background-color: rgb(150, 235, 24);
+    margin-left: 1rem;
+}
+section > div > button:active{
+    background-color: deeppink;
+}
+h3{
+    margin-top: 1rem;
+}
